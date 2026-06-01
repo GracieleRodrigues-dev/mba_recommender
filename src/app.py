@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pickle
 from src.data_loader import DataLoader
 from src.data_preprocessor import DataPreprocessor
@@ -8,6 +10,7 @@ from src.apriori_model import AprioriModel
 from src.recommender import CourseRecommender
 from src.visualizer import Visualizer
 from src.exploratory_analysis import ExploratoryAnalysis
+
 
 st.set_page_config(page_title="Analise Curricular - MBA", layout="wide")
 st.title("Sistema de Recomendacao e Analise Curricular")
