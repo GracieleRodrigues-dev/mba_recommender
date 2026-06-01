@@ -20,7 +20,10 @@ from src.exploratory_analysis import ExploratoryAnalysis
 st.set_page_config(page_title="Analise Curricular - MBA", layout="wide")
 st.title("Sistema de Recomendacao e Analise Curricular")
 st.markdown("Estudo de Caso baseado em Market Basket Analysis (MBA), focado no planejamento curricular.")
-
+st.info("""
+**Desenvolvido por Graciele Rodrigues** | Trabalho de Conclusão de Curso (TCC) - **UDESC** (Universidade do Estado de Santa Catarina).  
+Para mais detalhes técnicos e acesso ao código-fonte, visite o [repositório no GitHub](https://github.com/GracieleRodrigues-dev/mba_recommender).
+""")
 st.sidebar.header("Configuracoes do Algoritmo")
 
 if IS_CLOUD:
