@@ -98,7 +98,7 @@ with aba_exploratoria:
         ExploratoryAnalysis.render_dashboard(transactions, rules_df, vis)
 
 with aba_recomendacao:
-    st.markdown("### Simulador de Grade e Analise Preditiva")
+    st.markdown("### Simulador de Grade e Analise Curricular")
     with st.expander("Instrucoes de Uso"):
         st.markdown("""
         1. **Tamanho da Grade:** Selecione a quantidade total de disciplinas que planeja cursar no semestre.
