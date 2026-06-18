@@ -166,3 +166,6 @@ with aba_recomendacao:
                     st.write(f"Confianca estatistica do risco: {worst['risk_conf']:.4f}")
                 else:
                     st.success(f"O sistema nao identificou alertas criticos de combinacoes diferentes para este volume de disciplinas.")
+                
+                st.markdown("---")
+                st.metric(label="Total de Regras Mineradas", value=len(rules_df))
